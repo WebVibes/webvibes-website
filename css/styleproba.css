@@ -1,0 +1,745 @@
+@media screen and (min-width:1280px) {
+    html {
+        font-size: 1.15vw;
+    }
+}
+@media screen and (max-width:1279px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:480px) {
+    html {
+        font-size: 16px;
+    }
+}
+body {
+    font-family: 'Hind Siliguri', sans-serif;;
+    color: #333;
+    background: #fff;
+
+}
+p{
+    margin-bottom: 0.7rem;
+    line-height: 1.5;
+}
+h1, 
+h2, 
+h3 {
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+h1, 
+h2 {
+    font-size: 2.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+ 
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-weight: 600;
+}
+a {
+    color: #828282;
+ 
+    text-decoration: none;
+}
+.button {
+    border: none;
+    background-color: #F96755;
+    color: white;
+    padding: 0.4rem 1.6rem;
+    padding-top: 0.5rem;
+    border-radius: 50px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: all .3s linear;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+}
+
+.button:hover {
+    border: 1px solid #F96755;
+    background-color: white;
+    color: #F96755;
+   
+}  
+section {
+    margin-bottom: 4vw;
+}
+#hero {
+   
+    background-size: auto 50%;
+    padding: 10vw 0;
+    position: relative;
+}
+#hero2 {
+   
+    background-size: auto 50%;
+    padding: 10vw 0;
+    position: relative;
+}
+#hero img{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    width: auto;
+    height: 80%;
+    background: url(../img/foltocska.svg) no-repeat center;
+    background-size: 80%;
+    display: flex;
+}
+#hero2 img{
+    position: absolute;
+    bottom: 15%;
+    right: 9%;
+    width: auto;
+    height: 70%;
+    background: url(../img/foltocska.svg) no-repeat center;
+    background-size: 100%;
+    display: flex;
+}
+
+.hero-text {
+    padding-bottom: 1.5rem;
+    max-width: 30rem;
+}
+
+#services h2 {
+    text-align: center;
+   
+}
+#services h3{
+    padding-top: 1rem;
+}
+#services p {
+    padding-bottom: 1rem;
+}
+.box {
+    align-items: left;
+    background: #fff;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+  
+}
+#portfolio h2 {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+#portfolio img {
+    margin-bottom: 1rem;
+}
+#services img {
+    height: 6rem;
+    background-color: #3C5478;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    align-items: left;
+    margin-bottom: 1rem;
+}
+#how-we-work ul {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+
+#how-we-work ul li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+    position: relative;
+    padding-left: 30px;
+}
+#how-we-work ul li:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background: #F96755;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+}
+#how-we-work ul li:after {
+    content: "";
+    width: 8px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    margin-top: -8px;
+    border-bottom: solid 2px white;
+    border-right: solid 2px white;
+    transform: rotate(45deg);
+}
+#kapcsolat{
+    padding-top: 8rem;
+}
+#how-we-work2 ul {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+#how-we-work2 h2 {
+    padding-bottom: 1rem;
+}
+#how-we-work2 ul li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+    position: relative;
+    padding-left: 30px;
+}
+.text{
+margin-top: 5rem;
+ margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #F4F5FA;
+    padding: 1.5rem 0;
+    font-size: smaller;
+}
+footer .content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#foot-info li, #foot-contact li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+#foot-info li a{
+    color: inherit;
+}
+#copyright {
+    padding: 1rem 0;
+    font-size: smaller;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-bottom: 0.4rem;
+    height: auto;
+}
+.content-box {
+    width: 80%;
+    margin: 0 auto;
+}
+#how-we-work,
+#how-we-work2,
+#hero img,
+#hero2 img,
+#services,
+#portfolio {
+    padding-bottom: 3rem;
+}
+#hero p,
+#hero2 p{
+    padding-bottom: 1rem;
+}
+.button {
+    padding: 0.8rem 1.6rem;
+}
+#how-we-work2 h2{
+    padding-bottom:0;
+}
+#how-we-work2 p{
+    padding-bottom:1rem;
+    }
+ #how-we-work2 img{
+        width: 90%;
+        margin: 0 auto;
+        }
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.contact-box {
+    max-width: 850px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 0.9rem;
+    color: #828282;
+    margin-bottom: 22px;
+    transition: .3s;
+    border-radius: 20px;
+}
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.field:focus {
+    background-color: #fff;
+    border: 1px solid gray;
+}
+.area {
+    min-height: 150px;
+}
+.input_field .check {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.input_field .check input[type="checkbox"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.input_field {
+    display: flex;
+}
+.input_field .check .checkmark{
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+}
+.input_field .check .checkmark:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 10px;
+    height: 7px;
+    border: 2px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+    display: none;
+}
+.input_field .check input[type="checkbox"]:checked ~ .checkmark {
+    background: #F96755;
+}
+.input_field .check input[type="checkbox"]:checked ~ .checkmark:before {
+    display: block;
+}
+.input_field p {
+    margin-left: 1rem;
+}
+@media screen and (max-width:1280px) {
+    #kapcsolat {
+        padding-top: 10rem;
+    padding-bottom: 3rem;
+    }
+   .logoarculat,
+    .mi {
+        padding-top: 5rem;
+    padding-bottom: 3rem;
+    }
+    
+    .content-box {
+        width: 80%;
+    }
+    #hero img {
+        
+        margin-right: -5rem;
+        height: auto;
+        width: 35rem;
+        padding-bottom: 3rem;
+    }
+    #hero2 img{
+        
+        margin-right: -5rem;
+        height: auto;
+        width: 35rem;
+        padding-bottom: 3rem;
+    }
+    #hero2 img{
+        position: absolute;
+        bottom: 15%;
+        right: 9%;
+        width: auto;
+        height: 70%;
+        background: url(../img/foltocska.svg) no-repeat center;
+        background-size: 100%;
+        display: flex;
+    }
+    #how-we-work2,
+    #how-we-work,
+    #hero img,
+    #hero2 img,
+    #services {
+        padding-bottom: 2rem;
+    }
+    
+}
+@media screen and (max-width:1199px) {
+
+    header .content-box {
+        flex-wrap: wrap;
+    }
+    #main-menu{
+        order:3;
+        width: 100%;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: solid 1px #ccc;
+        text-align: center;
+    }
+    #hero2 img{
+        
+        margin-right: -5rem;
+        height: auto;
+        width: 35rem;
+        padding-bottom: 3rem;
+    }
+    #hero2 img{
+        position: absolute;
+        bottom: 19%;
+        right: 9%;
+        width: auto;
+        height: 70%;
+        background: url(../img/foltocska.svg) no-repeat center;
+        background-size: 90%;
+        display: flex;
+    }
+    #hero img{
+        
+        margin-right: -5rem;
+        height: auto;
+        width: 35rem;
+        padding-bottom: 3rem;
+    }
+    footer .content-box {
+        display: block;
+        text-align: center;
+    }
+    #foot-info {
+        margin-bottom: 1rem;
+    }
+    .column-3 > div {
+        width: calc(50% - 2rem);
+    }
+    .column-4 > div {
+        width: calc(50% - 2rem);
+    }
+    #portfolio img {
+        width: 100%;
+    }
+    #portfolio h3 {
+        font-size: 1.3rem;
+    }
+    #kapcsolat {
+        padding-top: 12rem;
+    padding-bottom: 3rem;
+    }
+    .logoarculat {
+        padding-top: 6rem;
+    padding-bottom: 3rem;
+    }
+    .mi{
+        padding-top: 7rem;
+        padding-bottom: 3rem;
+    }
+    #how-we-work,
+    #how-we-work2,
+    #hero img,
+    #services {
+        padding-bottom: 2rem;
+    }
+    #portfolio {
+        padding-bottom: 0;
+    }
+    #menu-button {
+        padding-bottom: 1rem;
+    }
+    .button {
+       
+        padding: 0.8rem 1.6rem;
+       
+    
+    }
+    
+
+}
+
+@media screen and (max-width:1073px) {
+    #hero img{
+        
+        margin-right: -5rem;
+        height: auto;
+        width: 32rem;
+        padding-bottom: 3rem;
+    }
+    #hero2 img{
+        
+        margin-right: -5rem;
+        height: auto;
+        width: 35rem;
+        padding-bottom: 3rem;
+    }
+    #hero2 img{
+        position: absolute;
+        bottom: 26%;
+        right: 9%;
+        width: auto;
+        height: 60%;
+        background: url(../img/foltocska.svg) no-repeat center;
+        background-size: 90%;
+        display: flex;
+    }
+}
+@media screen and (max-width:990px) {
+    .mi{
+        padding-top: 2rem;
+        
+    }
+    #kapcsolat {
+        padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+    #hero,
+    #hero2{
+        padding: 2rem 0 20rem 0;
+    }
+    .hero-text{
+        max-width: initial;
+    }
+   
+  
+    #hero2 img{
+        right: 50%;
+        margin-right: -13rem;
+        height: auto;
+        width: 30rem;
+        bottom: 0;
+        padding:1rem;
+    }
+    #hero img{
+        right: 50%;
+        margin-right: -15rem;
+        height: auto;
+        width: 30rem;
+    }
+    #foot-info li, #foot-contact li{
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+   
+  
+    #portfolio,
+    #how-we-work,
+    #how-we-work2,
+    #hero img,
+    #hero2 img,
+    #services {
+        padding-bottom: 2rem;
+    }
+    .text{
+        margin-top: 2rem;
+         margin-bottom: 1rem;
+        }
+    #services h3 {
+        padding-top: 1rem;
+    }
+    #services .button {
+        margin-top: 1rem;
+    }
+    #portfolio h2 {
+        text-align: left;
+    }
+    #services h2 {
+        text-align: left;
+    }
+   
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.3rem;
+    }
+    #menu-button {
+        padding-bottom: 1rem;
+    }
+    .button {
+       
+        padding: 0.8rem 1.6rem;
+    
+    }
+    #services p{
+        padding-bottom: 0;
+    }
+    .col-1-2 {
+        width: calc(100% - 2rem);
+    } 
+    .field {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .logoarculat {
+        padding-top: 0;
+    }
+    #hero,
+    #hero2{
+        padding: 2rem 0 20rem 0;
+    }
+    .hero-text{
+        max-width: initial;
+    }
+    .column-4 > div {
+        width: calc(100% - 2rem);
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.3rem;
+    }
+    #hero img,
+    #hero2 img{
+        right: 50%;
+        margin-right: -13rem;
+        height: auto;
+        width: 27rem;
+    }
+    .column-3 > div {
+        width: calc(100% - 2rem);
+    }
+    #portfolio h3 {
+        font-size: 1.2rem;
+    }
+    
+    
+    #how-we-work,
+    #hero img,
+    #hero2 img,
+    #services {
+        padding-bottom: 3rem;
+    }
+    .text{
+        margin-top: 2rem;
+         margin-bottom: 1rem;
+        }
+    #services h3 {
+        padding-top: 1rem;
+    }
+    #services .button {
+        margin-top: 1rem;
+    }
+    #portfolio h2 {
+        text-align: left;
+    }
+
+    #how-we-work2  {
+        padding-top: 2rem;
+    
+    }
+    #menu-button {
+        padding-bottom: 1rem;
+    }
+    .contact-box {
+        padding-bottom: 3rem;
+    }
+    .field {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+    .button {
+       
+        padding: 0.8rem 1.6rem;
+    }
+    #services p{
+        padding-bottom: 0;
+    }
+    #portfolio img {
+        width: 100%;
+    }
+    #kapcsolat {
+        padding-top:1rem ;
+    }
+}
+@media screen and (max-width:500px) {
+    #logo {
+        max-width: initial;
+        width: 20%;
+        margin: 0 auto 1rem auto;
+    }
+    #tel {
+        margin: 0 auto;
+    }
+    #main-menu li{ 
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    #main-menu li:last-of-type{ 
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    #portfolio p{
+        padding-bottom: 2rem;
+    }
+    
+    #how-we-work,
+    #hero img,
+    #hero2 img,
+    #services {
+        padding-bottom: 3rem;
+    }
+    .text{
+        margin-top: 2rem;
+         margin-bottom: 1rem;
+        }
+    #services h3 {
+        padding-top: 1rem;
+    }
+    #services .button {
+        margin-top: 1rem;
+    }
+    #portfolio h2 {
+        text-align: left;
+    }
+    #portfolio img {
+        width: 100%;
+    }
+    .mi{
+        padding-top: 0;
+    
+    }
+    #hero p,
+    #hero2 p {
+        padding-bottom: 1rem;
+    }
+    #menu-button {
+        padding-bottom: 1rem;
+    }
+    .button {
+       
+        padding: 0.8rem 1.6rem;
+
+    
+    }
+    #services p{
+        padding-bottom: 0;
+    }
+}
+
+
+
